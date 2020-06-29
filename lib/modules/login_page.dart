@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:login_app/modules/signup_page.dart';
+// import 'package:/modules/signup_page.dart';
 
 class LoginPage extends StatelessWidget{
   @override
@@ -99,7 +99,7 @@ class LoginPage extends StatelessWidget{
                     GestureDetector(
                       onTap: (){
                         Navigator.push(context, MaterialPageRoute(builder: (context){
-                          return SignupPage();
+                          // return SignupPage();
                         }));
                       },
                       child: Text("Sign up",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.green),),

@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:login_app/modules/login_page.dart';
+// import 'package:login_app/modules/login_page.dart';
 class SignupPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
@@ -107,7 +107,7 @@ class SignupPage extends StatelessWidget{
                     GestureDetector(
                       onTap: (){
                         Navigator.push(context, MaterialPageRoute(builder: (context){
-                          return LoginPage();
+                          // return LoginPage();
                         }));
                       },
                       child: Text("Sign in.",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.green),),

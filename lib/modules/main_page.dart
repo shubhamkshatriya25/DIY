@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:login_app/modules/signup_page.dart';
-import 'package:login_app/modules/login_page.dart';
+// import 'package:login_app/modules/signup_page.dart';
+// import 'package:login_app/modules/login_page.dart';
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class MainPage extends StatelessWidget {
               child: FlatButton(
                 onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context){
-                    return LoginPage();
+                    // return LoginPage();
                   }));
                 },
                 color: Colors.green,
@@ -42,7 +42,7 @@ class MainPage extends StatelessWidget {
               child: FlatButton(
                 onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context){
-                    return SignupPage();
+                    // return SignupPage();
                   }));
                 },
                 color: Colors.green,
